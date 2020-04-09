@@ -85,16 +85,15 @@
 .small-input3 {
   background-color: #383838;
   border: none;
+  width: 60%;
 }
 
 .small-input,
 .small-input1,
-.small-input2 {
+.small-input2:focus{
   border: none;
-}
+  outline:none;
 
-.small-input3 {
-    width: 60%;
 }
 
 .mascot {
