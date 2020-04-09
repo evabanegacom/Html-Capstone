@@ -123,18 +123,9 @@
     }
 
     .result {
-        border: 1px solid red;
-        display: flex;
-        flex-direction:row;
+        display: none;
     
     }
     
-    .result1 {
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:row;
-
-    }
     
 }
