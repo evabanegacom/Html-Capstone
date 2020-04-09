@@ -10,8 +10,8 @@
 .input4 {
     margin-left: 1%;
     width: 10%;
-    padding-top:18px;
-    padding-bottom:18px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .first-para {
@@ -78,14 +78,15 @@
 .input2,
 .input3 {
   border-left: 1px solid #d35266;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.small-input3 {
+.small-input3:focus {
   background-color: #383838;
   border: none;
   width: 60%;
+  outline:none;
 }
 
 .small-input,

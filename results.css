@@ -1,5 +1,12 @@
+@font-face {
+    font-family: gotham;
+    src: url("./fonts/gotham.otf");
+}
+
 .first {
  background-color: #383838;
+ padding-top: 5px;
+ padding-bottom:5px;
 }
 
 .second {
@@ -15,12 +22,33 @@
 .small-input,
 .small-input1,
 .small-input2,
-.small-input3 {
+.small-input3{
     border: none;
+}
+
+.small-input,
+.small-input1,
+.small-input2:focus {
+ outline:none;
+}
+
+.mascot {
+    width: 30px;
+    height: 30px;
 }
 
 .forms {
     display: flex;
+}
+
+.zat {
+    font-size: 13px;
+    font-weight:700;
+}
+
+.ad {
+    font-size: 13px;
+    font-family: gotham;
 }
 
 .input2,
@@ -53,6 +81,18 @@
 .cont {
     background-color: #d35266;
 }
+.result {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.result1 {
+    display: flex;
+    flex-direction: column;
+}
 
 @media only screen and (max-width: 768px) {
     .forms {
@@ -81,4 +121,20 @@
     .input4 {
         margin-left:0;
     }
+
+    .result {
+        border: 1px solid red;
+        display: flex;
+        flex-direction:row;
+    
+    }
+    
+    .result1 {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:row;
+
+    }
+    
 }
