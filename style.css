@@ -23,6 +23,18 @@
     font-weight:700;
 }
 
+.ad {
+  font-size: 13px;
+}
+
+.buton {
+  padding: 5px;
+}
+
+.hot {
+  font-size: 20px;
+}
+
 .first {
   background-color: #383838;
   padding-top: 0.5em;
@@ -34,12 +46,25 @@
     margin-top: 3em;
 }
 
+.buttons {
+  background-color: #d35266;
+  padding-right: 200px;
+  padding-left: 100px;
+  border: none;
+}
+
 .second {
     margin-top: 5em;
 }
 
 .input2 {
   width: 22%;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight:700;
+  color: rgb(131, 55, 55);
 }
 
 .form1 {
@@ -77,6 +102,44 @@
     background-color:black;
 }
 
+.section1 {
+  background-color: rgb(160, 189, 160);
+  border-bottom:1px solid rgb(160, 189, 160);
+}
+
+.elect {
+  background-color:#888888;
+}
+
+.checked {
+  color:orange;
+}
+
+footer {
+  background-color: #383838;
+}
+
+footer a {
+  color: white;
+}
+
+footer i {
+  width: 30px;
+}
+.icon .fab,
+.icon .fas {
+  text-decoration: none;
+  width: 30px;
+  font-size: 25px;
+}
+
+.foot1,
+.foot2,
+.foot3 {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 768px) {
     .input1,
     .input2,
@@ -98,5 +161,46 @@
 
     .third {
         padding-bottom: 1em;
+    }
+
+    .sect1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .buttons {
+      padding-right:100px;
+      padding-left:40px;
+      border: none;
+    }
+
+    .but-div {
+      width: 100%;
+      min-width: 230px;
+    }
+
+    .text {
+      width: 100%;
+      min-width: 230px;
+    }
+
+    .foot {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .foot1,
+    .foot2,
+    .foot3 {
+      display: flex;
+      flex-direction: row;
+      width:100%;
+      margin: auto;
+    }
+
+    .foot1 a,
+    .foot2 a,
+    .foot3 a {
+      margin:auto;
     }
 }
