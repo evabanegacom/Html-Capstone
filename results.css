@@ -1,6 +1,6 @@
 @font-face {
   font-family: gotham;
-  src: url("./fonts/Gotham-Bold.otf");
+  src: url("./fonts/GothamBold.ttf");
 }
 
 @font-face {
@@ -104,6 +104,8 @@
 .result {
   border: 1px solid red;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .result1 {
@@ -120,10 +122,10 @@
   padding-top: 10px;
 }
 
-.topic {
+/* .topic {
   position: relative;
   top: 1.1em;
-}
+} */
 
 .section1 {
   background-color: rgba(45, 45, 45, 0.075);
@@ -136,11 +138,11 @@
 
 .media-bars {
   display: none;
-  padding-top:5px;
+  padding-top: 5px;
 }
 
 .barss {
-  color:red;
+  color: red;
   font-size: 30px;
 }
 
@@ -162,9 +164,46 @@
   display: flex;
 }
 
-.foot3 a{
+.footer1 {
+  background-color: #383838;
+}
+
+.foot a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 12px;
+  font-family: var(--helvetica-light);
+}
+
+.foot3 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footss {
+  background-color: black;
+  overflow: auto;
+}
+
+.description {
+  font-size: 15px;
+  font-family: var(--main-color);
+  color: #d35266;
+}
+
+.words {
+  font-size: 15px;
+  font-family: var(--helvetica-light);
+}
+
+.company {
+  font-size: 13px;
+  font-family: var(--main-color);
+}
+
+.foot3 a {
+  text-decoration: none;
+  color: white;
   font-size: 20px;
 }
 
@@ -179,6 +218,32 @@
 
 .lead {
   border-bottom: 1px solid rgb(185, 181, 181);
+}
+
+.navigate {
+  color: #d35266;
+  font-family: var(--main-color);
+  font-size: 15px;
+}
+
+.nigeria {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.foots {
+  color: #d35266;
+  font-family: var(--main-color);
+  font-size: 12px;
+}
+
+.checked {
+  color: gold;
+}
+
+.prices {
+  position: relative;
+  top: 1em;
 }
 
 .small-input3:focus {
@@ -222,7 +287,7 @@
     display: block;
   }
 
-  .foot2 {
+  .footss {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +296,7 @@
   .foot {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    flex-wrap: wrap;
     width: 100%;
   }
 
@@ -239,7 +304,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid red;
   }
 
   .lead {
@@ -249,4 +313,14 @@
   .foot div {
     margin: auto;
   }
+
+  .description {
+    font-size: 13px;
+    font-family: var(--main-color);
+  }
+
+  .words {
+    font-size: 13px;
+    font-family: var(--helvetica-light);
+  }  
 }

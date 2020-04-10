@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: gotham;
-  src: url("./fonts/Gotham-Bold.ttf");
+  src: url("./fonts/GothamBold.ttf");
 }
 
 @font-face {
@@ -181,7 +181,7 @@ footer a {
 }
 
 .hp {
-  font-family: var(--gotham);
+  font-family: var(--main-color);
 }
 
 .mascot {
