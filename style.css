@@ -235,6 +235,27 @@ footer i {
   border-bottom: 1px solid #d35266;
 }
 
+.brand {
+  font-family: var(--helvetica-light);
+}
+
+.price {
+  font-family: var(--helvetica-bold);
+}
+
+.description {
+  font-family: var(--helvetica-light);
+  font-size: 15px;
+}
+
+.company {
+  font-family: var(--rounded);
+}
+
+.one {
+  background-color: rgba(45, 45, 45, 0.055);
+}
+
 body a:hover {
   color: white;
 }
