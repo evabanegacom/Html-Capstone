@@ -3,24 +3,57 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: gotham;
+  src: url("./fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: rounded;
+  src: url("./fonts/rounded.otf");
+}
+
+@font-face {
+  font-family: hbold;
+  src: url("./fonts/Helvetica\ Neu\ Bold.ttf");
+}
+
+@font-face {
+  font-family: hlight;
+  src: url("./fonts/HelveticaNeue\ Light.ttf");
+}
+
+@font-face {
+  font-family: hmedium;
+  src: url("./fonts/HelveticaNeue\ Medium.ttf");
+}
+
+:root {
+  --main-color: gotham;
+  --rounded-font: rounded;
+  --helvetica-light: hlight;
+  --helvetica-medium: hmedium;
+  --helvetica-bold: hbold;
+}
+
 .main {
   background-color: #d35266;
 }
 
 .input4 {
-    margin-left: 1%;
-    width: 10%;
-    padding-top:10px;
-    padding-bottom:10px;
+  margin-left: 1%;
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .first-para {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .zat {
-    font-size: 14px;
-    font-weight:700;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .ad {
@@ -38,12 +71,12 @@
 .first {
   background-color: #383838;
   padding-top: 0.5em;
-  padding-bottom:0.5em;
+  padding-bottom: 0.5em;
 }
 
 .third {
-    padding-bottom: 5em;
-    margin-top: 3em;
+  padding-bottom: 5em;
+  margin-top: 3em;
 }
 
 .buttons {
@@ -54,7 +87,7 @@
 }
 
 .second {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .input2 {
@@ -63,15 +96,15 @@
 
 .desc {
   font-size: 14px;
-  font-weight:700;
+  font-weight: 700;
   color: rgb(131, 55, 55);
 }
 
 .form1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .input1,
@@ -86,33 +119,32 @@
   background-color: #383838;
   border: none;
   width: 60%;
-  outline:none;
+  outline: none;
 }
 
 .small-input,
 .small-input1,
-.small-input2:focus{
+.small-input2:focus {
   border: none;
-  outline:none;
-
+  outline: none;
 }
 
 .mascot {
-    width: 30px;
-    background-color:black;
+  width: 30px;
+  background-color: black;
 }
 
 .section1 {
   background-color: rgb(160, 189, 160);
-  border-bottom:1px solid rgb(160, 189, 160);
+  border-bottom: 1px solid rgb(160, 189, 160);
 }
 
 .elect {
-  background-color:#888888;
+  background-color: rgb(136, 136, 136);
 }
 
 .checked {
-  color:orange;
+  color: orange;
 }
 
 footer {
@@ -126,6 +158,7 @@ footer a {
 footer i {
   width: 30px;
 }
+
 .icon .fab,
 .icon .fas {
   text-decoration: none;
@@ -141,66 +174,66 @@ footer i {
 }
 
 @media only screen and (max-width: 768px) {
-    .input1,
-    .input2,
-    .input3,
-    .input4 {
-        width:100%;
-    }
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    width: 100%;
+  }
 
-    .input4 {
-        margin-left: 0;
-    }
+  .input4 {
+    margin-left: 0;
+  }
 
-    .input2,
-    .input3,
-    .input4 {
-        margin-top: 10px;
-        margin-left: 0;
-    }
+  .input2,
+  .input3,
+  .input4 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
 
-    .third {
-        padding-bottom: 1em;
-    }
+  .third {
+    padding-bottom: 1em;
+  }
 
-    .sect1 {
-      display: flex;
-      flex-direction: column;
-    }
+  .sect1 {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .buttons {
-      padding-right:100px;
-      padding-left:40px;
-      border: none;
-    }
+  .buttons {
+    padding-right: 100px;
+    padding-left: 40px;
+    border: none;
+  }
 
-    .but-div {
-      width: 100%;
-      min-width: 230px;
-    }
+  .but-div {
+    width: 100%;
+    min-width: 230px;
+  }
 
-    .text {
-      width: 100%;
-      min-width: 230px;
-    }
+  .text {
+    width: 100%;
+    min-width: 230px;
+  }
 
-    .foot {
-      display:flex;
-      flex-direction: column;
-    }
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .foot1,
-    .foot2,
-    .foot3 {
-      display: flex;
-      flex-direction: row;
-      width:100%;
-      margin: auto;
-    }
+  .foot1,
+  .foot2,
+  .foot3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+  }
 
-    .foot1 a,
-    .foot2 a,
-    .foot3 a {
-      margin:auto;
-    }
+  .foot1 a,
+  .foot2 a,
+  .foot3 a {
+    margin: auto;
+  }
 }
