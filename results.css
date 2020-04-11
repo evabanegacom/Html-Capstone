@@ -102,7 +102,6 @@
 }
 
 .result {
-  border: 1px solid red;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -186,18 +185,18 @@
 }
 
 .description {
-  font-size: 15px;
+  font-size: 17px;
   font-family: var(--main-color);
   color: #d35266;
 }
 
 .words {
-  font-size: 15px;
-  font-family: var(--helvetica-light);
+  font-size: 17px;
+  font-family: var(--helvetica-medium);
 }
 
 .company {
-  font-size: 13px;
+  font-size: 17px;
   font-family: var(--main-color);
 }
 
@@ -244,6 +243,10 @@
 .prices {
   position: relative;
   top: 1em;
+}
+
+.number {
+  display: flex;
 }
 
 .small-input3:focus {
@@ -314,13 +317,16 @@
     margin: auto;
   }
 
-  .description {
-    font-size: 13px;
-    font-family: var(--main-color);
+  .number {
+    display: flex;
+    flex-direction: column;
   }
 
-  .words {
-    font-size: 13px;
-    font-family: var(--helvetica-light);
-  }  
+  .number-image {
+    width: 100%;
+  }
+
+  .all-para {
+    margin-top: 15px;
+  }
 }
