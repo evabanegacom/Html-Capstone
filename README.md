@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/evabanegacom/news-week/master/news.html)
+[Live Demo Link](https://raw.githack.com/evabanegacom/Html-Capstone/store/index.html)
 
 # Prerequisites
 Visual Studio code editor
