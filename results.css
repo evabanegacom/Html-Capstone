@@ -31,6 +31,12 @@
   --helvetica-bold: hbold;
 }
 
+.first a {
+  text-decoration: none;
+  font-family: var(--helvetica-bold);
+  color: rgb(136, 136, 136);
+}
+
 .first {
   background-color: #383838;
   padding-top: 5px;
@@ -71,6 +77,19 @@
 .ad {
   font-size: 13px;
   font-family: var(--main-color);
+}
+
+.sold {
+  font-family: var(--helvetica-medium);
+}
+
+.zattix {
+  font-family: var(--main-color);
+}
+
+.items {
+  font-family: var(--helvetica-light);
+  font-size: 14px;
 }
 
 .input2,
@@ -185,7 +204,7 @@
 }
 
 .description {
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--main-color);
   color: #d35266;
 }
@@ -247,6 +266,10 @@
 
 .number {
   display: flex;
+}
+
+.all-para {
+  background-color: white;
 }
 
 .small-input3:focus {
