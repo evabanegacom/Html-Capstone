@@ -9,7 +9,7 @@ It was done to identify dimension break points and responsiveness with respect t
 
 different screen sizes.
 
-![screenshot](store.png)
+![screenshot](/images/html-capstone.png)
 
 Additional description about the project and its features.
 
