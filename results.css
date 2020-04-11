@@ -272,6 +272,10 @@
   background-color: white;
 }
 
+body a:hover {
+  color: white;
+}
+
 .small-input3:focus {
   outline: none;
 }
