@@ -140,10 +140,9 @@
   padding-top: 10px;
 }
 
-/* .topic {
-  position: relative;
-  top: 1.1em;
-} */
+.san {
+  font-size: 18px;
+}
 
 .section1 {
   background-color: rgba(45, 45, 45, 0.075);
