@@ -39,7 +39,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
-smashing magazine
+ZATTIX Designer Ahmed
 
 etc
 📝 License
