@@ -1,8 +1,5 @@
 # Html-Capstone
 my-Capstone for Html
-# news-week
-news-week-clone
-
 This is a solo project about building an electronic store with a search page and a result page
 
 It was done to identify dimension break points and responsiveness with respect to 
