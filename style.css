@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url("./fonts/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: rounded;
+  src: url("./fonts/rounded.otf");
+}
+
+@font-face {
+  font-family: hbold;
+  src: url("./fonts/Helvetica\ Neu\ Bold.ttf");
+}
+
+@font-face {
+  font-family: hlight;
+  src: url("./fonts/HelveticaNeue\ Light.ttf");
+}
+
+@font-face {
+  font-family: hmedium;
+  src: url("./fonts/HelveticaNeue\ Medium.ttf");
+}
+
+:root {
+  --main-color: gotham;
+  --rounded-font: rounded;
+  --helvetica-light: hlight;
+  --helvetica-medium: hmedium;
+  --helvetica-bold: hbold;
+}
+
+.main {
+  background-color: #d35266;
+}
+
+.input4 {
+  margin-left: 1%;
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 13px;
+  font-family: var(--helvetica-medium);
+}
+
+.first-para {
+  font-size: 60px;
+}
+
+.first-para a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--gotham);
+}
+
+.zat {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ad {
+  font-size: 13px;
+}
+
+.buton {
+  padding: 5px;
+}
+
+.hot {
+  font-size: 20px;
+}
+
+.zat a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--helvetica-bold);
+}
+
+.home a {
+  text-decoration: none;
+  color: #d35266;
+  font-family: var(--helvetica-medium);
+}
+
+.collection a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+  font-family: var(--helvetica-medium);
+}
+
+.purchase a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+  font-family: var(--rounded);
+}
+
+.first {
+  background-color: #383838;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.third {
+  padding-bottom: 5em;
+  margin-top: 3em;
+}
+
+.buttons {
+  background-color: #d35266;
+  padding-right: 200px;
+  padding-left: 100px;
+  border: none;
+}
+
+.second {
+  margin-top: 5em;
+}
+
+.input2 {
+  width: 22%;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(131, 55, 55);
+  font-family: var(--gotham);
+}
+
+.form1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input1,
+.input2,
+.input3 {
+  border-left: 1px solid #d35266;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.small-input3 {
+  border: none;
+  background-color: transparent;
+}
+
+.small-input2 {
+  border: none;
+  padding-top: 5px;
+}
+
+.small-input {
+  padding-top: 5px;
+}
+
+.small-input3:focus {
+  background-color: #383838;
+  border: none;
+  width: 60%;
+  outline: none;
+}
+
+.small-input,
+.small-input1,
+.small-input2:focus {
+  border: none;
+  outline: none;
+}
+
+.hp {
+  font-family: var(--main-color);
+}
+
+.mascot {
+  width: 30px;
+  background-color: black;
+}
+
+.section1 {
+  background-color: rgb(160, 189, 160);
+  border-bottom: 1px solid rgb(160, 189, 160);
+}
+
+.elect {
+  background-color: rgb(136, 136, 136);
+}
+
+.checked {
+  color: orange;
+}
+
+footer {
+  background-color: #383838;
+}
+
+footer i {
+  width: 30px;
+}
+
+.icon .fab,
+.icon .fas {
+  text-decoration: none;
+  width: 30px;
+  font-size: 25px;
+}
+
+.foot1,
+.foot2,
+.foot3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.download {
+  color: #d35266;
+  font-size: 13px;
+}
+
+.firstlink {
+  color: #d35266;
+  font-family: var(--gotham);
+  text-decoration: none;
+  border-bottom: 1px solid #d35266;
+}
+
+.brand {
+  font-family: var(--helvetica-light);
+}
+
+.price {
+  font-family: var(--helvetica-bold);
+}
+
+.description {
+  font-family: var(--helvetica-light);
+  font-size: 15px;
+}
+
+.company {
+  font-family: var(--rounded);
+}
+
+body a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    width: 100%;
+  }
+
+  .input4 {
+    margin-left: 0;
+  }
+
+  .input2,
+  .input3,
+  .input4 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .third {
+    padding-bottom: 1em;
+  }
+
+  .sect1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons {
+    padding-right: 100px;
+    padding-left: 40px;
+    border: none;
+  }
+
+  .but-div {
+    width: 100%;
+    min-width: 230px;
+  }
+
+  .text {
+    width: 100%;
+    min-width: 230px;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .disapear {
+    display: none;
+  }
+
+  .foot1,
+  .foot2,
+  .foot3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .firstlink {
+    border-bottom: none;
+    margin-top: 13px;
+  }
+
+  .foot1 a,
+  .foot2 a,
+  .foot3 a {
+    margin: auto;
+  }
+
+  .section2 img,
+  .section3 img,
+  .section4 img {
+    width: 100%;
+  }
+}
