@@ -37,6 +37,10 @@
   color: rgb(136, 136, 136);
 }
 
+.purchases {
+  font-size: 10px;
+}
+
 .first {
   background-color: #383838;
   padding-top: 5px;
@@ -110,6 +114,11 @@
 
 .small-input {
   padding: 20px 0 20px;
+}
+
+.sect {
+  display: flex;
+  justify-content: center;
 }
 
 .input4 {
